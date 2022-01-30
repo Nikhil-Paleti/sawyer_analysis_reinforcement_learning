@@ -28,3 +28,7 @@
 
 The model for simulation is taken from:
 https://github.com/vikashplus/sawyer_sim
+
+
+# Known issues:
+1. Continuing training by loading models is not complete. We are not saving the buffer so loading only networks and training is not providing good results.
