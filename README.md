@@ -11,7 +11,7 @@
 `Sawyer_RL.ipynb` contains:
 
 * Function to train a ddpg model to lift a cube using sawyer robot
-* Function to visualize the trained model
+* Function to visualize the trained model  
 Demonstartion of the learnt model: https://www.youtube.com/watch?v=UYUPgIz7v30  
 
 
