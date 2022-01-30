@@ -23,3 +23,8 @@
 5. Install mujoco-py
 6. clone the robosuite repository and follow their installation steps
 7. Install pytorch 
+
+# Model for simulation
+
+The model for simulation is taken from:
+https://github.com/vikashplus/sawyer_sim
