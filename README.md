@@ -12,6 +12,7 @@
 
 * Function to train a ddpg model to lift a cube using sawyer robot
 * Function to visualize the trained model
+Demonstartion of the learnt model: https://www.youtube.com/watch?v=UYUPgIz7v30  
 
 
 # Steps to reproduce the environment:
