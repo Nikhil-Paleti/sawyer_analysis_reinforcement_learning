@@ -1,0 +1,38 @@
+environment:
+  env_source: stanford_robosuite
+  env_name: Lift
+
+robosuite_env:
+  env_name: Lift
+  robots: Sawyer
+  has_renderer: True
+  has_offscreen_renderer: False
+  use_camera_obs: False
+  use_object_obs: True                  
+  horizon: 200
+  reward_shaping: True
+  hard_reset: False
+
+robosuite_keys: ["robot0_proprio-state", "object-state"]
+
+training_params:
+  num_epochs: 180
+  num_episodes: 50
+  episode_horizon: 150
+  warmup: 100
+  render: False
+
+ddpg_agent:
+  state_dim: 42
+  action_dim: 8
+  action_high: 1.
+  action_low: -1.
+  hidden_size: 300 
+  lr_actor: 0.001 
+  lr_critic: 0.001 
+  tau: 0.005 
+  gamma: 0.99 
+  eps: 1.0
+  decay_eps: 0.001 
+  batch_size: 64 
+  max_mem_size: 500000
